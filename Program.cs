@@ -8,7 +8,7 @@ namespace Hurricane
         {
             Console.WriteLine("Enter wind speed of storm in MPH");
         
-            int windSpeed = int.Parse(Console.ReadLine());
+            double windSpeed = double.Parse(Console.ReadLine());
 
             if (windSpeed >= 157)
             {
